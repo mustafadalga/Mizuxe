@@ -21,6 +21,14 @@ body {
     top: 0;
     left: 0; }
 
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd; }
+
+.cursor-pointer {
+  cursor: pointer; }
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px; }
