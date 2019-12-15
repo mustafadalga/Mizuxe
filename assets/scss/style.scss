@@ -60,4 +60,12 @@ body {
   .mb-resp {
     margin-bottom: 1em;
   }
+  #contact img {
+    max-width: 25%;
+  }
+}
+@media (max-width: 576px) {
+  #contact img {
+    margin-top: 15px;
+  }
 }
