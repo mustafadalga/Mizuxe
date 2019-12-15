@@ -25,10 +25,10 @@
       href="assets/css/style.css"
     />
   </head>
-  <body>
+  <body id="home" data-spy="scroll" data-target="#main-nav">
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-md navbar-light py-4 fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light py-4 fixed-top" id="main-nav">
       <div class="container">
         <a href="#home" class="navbar-brand">
           <img
@@ -469,4 +469,25 @@
 
 <script>
 $("#year").text(new Date().getFullYear());
+
+//Init Scrollspy
+$('body').scrollspy({ target: '#main-nav' });
+
+//Smooth Scrolling
+
+
+  $("#main-nav a").on('click', function (event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      const hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function () {
+
+        window.location.hash = hash;
+      });
+    }
+  });
 </script>
