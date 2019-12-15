@@ -20,3 +20,12 @@ body {
     position: absolute;
     top: 0;
     left: 0; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4em; }
+
+  .mb-resp {
+    margin-bottom: 1em; } }
