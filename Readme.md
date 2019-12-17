@@ -1,13 +1,13 @@
-#  Glozzom Multi Page Theme
+#  Mizuxe Template
 
 
-**[Brad Traversy](https://www.udemy.com/user/brad-traversy)'in hazırladığı [Bootstrap 4](https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects) eğitimi ile birlikte kodladığım şablon.**
+**[Brad Traversy](https://www.udemy.com/user/brad-traversy)'in hazırladığı [Bootstrap 4](https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects) eğitimi ile birlikte kodladığım Kitap / Ürün vitrin şablonu.**
 
 
 
 
 
-### Proje Bağlantı Adresi : [Glozzom](https://mustafadalga.github.io/Front-End-Developments/Glozzom/index.html)
+### Proje Bağlantı Adresi : [Mizuxe](https://mustafadalga.github.io/Front-End-Developments/Mizuxe/index.html)
 <hr>
 
 
